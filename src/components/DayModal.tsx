@@ -3,6 +3,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/u
 import { Checkbox } from '@/components/ui/checkbox';
 import { formatDate } from '@/lib/dateUtils';
 import { storage, Habit } from '@/lib/storage';
+import { notifications } from '@/lib/notifications';
 import confetti from 'canvas-confetti';
 
 interface DayModalProps {
@@ -49,6 +50,9 @@ export function DayModal({ date, onClose }: DayModalProps) {
         spread: 70,
         origin: { y: 0.6 }
       });
+      
+      // Send completion notification
+      notifications.sendCompletionNotification();
     }
   };
 

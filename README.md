@@ -1,73 +1,109 @@
-# Welcome to your Lovable project
+# 🌟 Habit Tracker – Build Consistency, One Day at a Time
 
-## Project info
+A simple and effective Habit Tracking application that helps users build daily routines, maintain streaks, and visualize progress.
 
-**URL**: https://lovable.dev/projects/6ea0d375-ff9e-4a5f-94df-af3c39afde19
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- 📅 Add & manage daily habits  
+- 📊 Track progress with charts  
+- 📆 Calendar-based daily check-in  
+- 🔄 Auto-calculated daily & weekly progress  
+- 🕒 Lightweight, fast & clean UI  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6ea0d375-ff9e-4a5f-94df-af3c39afde19) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend:** React.js  
+- **Backend:** Node.js / Express  
+- **Database:** MongoDB  
+- **Charts:** Recharts / Chart.js  
+- **Styling:** Tailwind CSS  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📸 Demo Preview
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+_Add your GIF or screenshot here later:_
+```
+![Demo](assets/demo.gif)
+```
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📂 Project Structure
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```
+habit-tracker/
+│── frontend/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   └── ...
+│
+│── backend/
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   └── ...
+│
+└── README.md
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## ⚙️ Installation
+
+### Clone the repo
+```bash
+git clone https://github.com/SagarDevop/Habits_Tracker.git
+cd Habits_Tracker
+```
+
+### Install dependencies
+**Frontend**
+```bash
+cd frontend
+npm install
+npm start
+```
+
+**Backend**
+```bash
+cd backend
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🧠 How It Works
 
-**Use GitHub Codespaces**
+1. Add habits for the day  
+2. Click checkboxes for each date  
+3. Tracker stores completion data  
+4. End-of-day progress chart updates automatically  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📈 Charts & Progress
 
-This project is built with:
+- Daily progress  
+- Weekly streak  
+- Habit-wise analytics  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🧑‍💻 Author
 
-Simply open [Lovable](https://lovable.dev/projects/6ea0d375-ff9e-4a5f-94df-af3c39afde19) and click on Share -> Publish.
+**SagarDevop**  
+GitHub: https://github.com/SagarDevop
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## ⭐ Support
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+If you like it, don't forget to ⭐ star the repo!
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
